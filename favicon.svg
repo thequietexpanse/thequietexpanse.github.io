@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="The Quiet Expanse favicon">
+  <defs>
+    <radialGradient id="bgGlow" cx="60%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#2f86ff" stop-opacity="0.65"/>
+      <stop offset="35%" stop-color="#1f56c7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#050b1c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8fd3ff" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#46a0ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#46a0ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <rect width="64" height="64" rx="12" fill="#040916"/>
+  <rect width="64" height="64" rx="12" fill="url(#bgGlow)"/>
+
+  <ellipse cx="36" cy="30" rx="18" ry="12" fill="url(#nebula)" transform="rotate(-12 36 30)"/>
+  <ellipse cx="29" cy="37" rx="14" ry="10" fill="url(#nebula)" opacity="0.65" transform="rotate(18 29 37)"/>
+
+  <g fill="#dff3ff">
+    <circle cx="11" cy="13" r="1.2"/>
+    <circle cx="18" cy="24" r="0.9"/>
+    <circle cx="22" cy="10" r="0.8"/>
+    <circle cx="49" cy="14" r="1"/>
+    <circle cx="54" cy="24" r="0.9"/>
+    <circle cx="16" cy="47" r="0.8"/>
+    <circle cx="27" cy="52" r="1"/>
+    <circle cx="47" cy="46" r="0.8"/>
+    <circle cx="55" cy="41" r="1.1"/>
+  </g>
+
+  <g stroke="#f4fbff" stroke-linecap="round" opacity="0.98">
+    <line x1="36" y1="15" x2="36" y2="25" stroke-width="1.8"/>
+    <line x1="31" y1="20" x2="41" y2="20" stroke-width="1.8"/>
+    <line x1="32.7" y1="16.7" x2="39.3" y2="23.3" stroke-width="1.2"/>
+    <line x1="39.3" y1="16.7" x2="32.7" y2="23.3" stroke-width="1.2"/>
+  </g>
+  <circle cx="36" cy="20" r="4.2" fill="#9fe5ff" opacity="0.35" filter="url(#softGlow)"/>
+</svg>
